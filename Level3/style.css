@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+h1 { color: darkblue; text-align: center; font-size: 40px; }
+p  { font-size: 18px; }
+img { width: 400px; max-width: 100%; }
+
+/* Tablet */
+@media (max-width: 768px) {
+  h1 { font-size: 30px; }
+  p  { font-size: 16px; }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body { padding: 10px; }
+  h1 { font-size: 24px; }
+  img { width: 100%; }
+}
+
+.post-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+label { display: block; margin-top: 12px; font-weight: bold; }
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.error { color: red; font-size: 13px; }
+#successMsg { color: green; font-weight: bold; }
